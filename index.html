@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cashier Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Cashier Application</h1>
+    <div id="product-management">
+        <h2>Product Management</h2>
+        <form id="product-form">
+            <input type="text" id="product-name" placeholder="Product Name" required>
+            <input type="number" id="product-cost" placeholder="Cost" required>
+            <input type="number" id="product-price" placeholder="Selling Price" required>
+            <button type="submit">Add Product</button>
+        </form>
+    </div>
+    <div id="invoice-section">
+        <h2>Invoice</h2>
+        <button id="create-invoice">Create Invoice</button>
+        <button id="cancel-invoice">Cancel Invoice</button>
+    </div>
+    <div id="sales-reports">
+        <h2>Sales Reports</h2>
+        <button id="view-report">View Sales Report</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
